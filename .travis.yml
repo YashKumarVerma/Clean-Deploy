@@ -17,4 +17,6 @@ script:
 
 after_success:
 - git clone https://github.com/fossasia/labyrinth target
+- ls -l --block-size=M
 - python clean-deploy.py
+- ls -l --block-size=M
