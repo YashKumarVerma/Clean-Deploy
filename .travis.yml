@@ -5,6 +5,9 @@ language: python
 python:
   - "3.6"
 
+before_install:
+- sudo apt-get install ffmpeg & ffmpeg -version
+
 script:
 - pip install path.py
 - python -m py_compile clean-deploy.py
