@@ -3,7 +3,7 @@ from itertools import chain
 import os
 
 # get all files
-d = Path('x');
+d = Path('target');
 
 # text files
 config = d.walkfiles(".*");

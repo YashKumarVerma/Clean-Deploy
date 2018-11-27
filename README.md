@@ -3,6 +3,8 @@ a python script to remove unwanted files from deploys (use with only frontend pr
 
 [![Build Status](https://travis-ci.com/YashKumarVerma/Clean-Deploy.svg?branch=master)](https://travis-ci.com/YashKumarVerma/Clean-Deploy)
 
+Free to use, just Mention credits
+
 # Usage
 **used on https://github.com/fossasia/labyrinth**
 
