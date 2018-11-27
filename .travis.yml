@@ -9,6 +9,6 @@ script:
 - pip install path.py
 - python -m py_compile clean-deploy.py
 
-success:
+after_success:
 - git clone https://github.com/fossasia/labyrinth target
 - python clean-deploy.py
