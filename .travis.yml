@@ -16,7 +16,7 @@ script:
 - python -m py_compile clean-deploy.py
 
 after_success:
-- git clone https://github.com/fossasia/labyrinth target
-- du -s -m target
+- git clone https://github.com/fossasia/labyrinth
+- cp -R labyrinth target
 - python clean-deploy.py
-- du -s -m target
+- du -sh -- *
