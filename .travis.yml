@@ -2,7 +2,9 @@ sudo: required
 dist: trusty
 
 language: python
+python:
+  - "3.6"
 
 script:
 - pip install path.py
-- python clean-deploy.py
+- python -m py_compile clean-deploy.py
