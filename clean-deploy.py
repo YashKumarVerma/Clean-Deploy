@@ -1,7 +1,7 @@
 from path import Path
 from itertools import chain
 
-d = Path('.');
+d = Path('target');
 config = d.walkfiles(".*");
 md 		= d.walkfiles("*.md");
 license = d.walkfiles("*.license");
